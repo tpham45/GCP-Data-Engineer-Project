@@ -1,0 +1,40 @@
+# Install Python and pip 
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py #it will have some errors. There are two way to solve this problem
+
+#1: Create a new virtual environment inside the VM instance of GCP
+    #1st: sudo apt install python3-venv
+    #2nd: python3 -m venv ~/name_of_your_environment
+    #3rd: source ~/name_of_your_environment/bin/activate (this is for active environment)
+    #4th: pip install packages_you_want (like pip install pandas)
+    #5th: deactivate (stop using virtural environment)
+
+#2: Using '--break-system-packages'
+    #example:
+        # sudo python3 get-pip.py --break-system-packages
+        # sudo pip3 install mage-ai --break-system-packages
+
+
+
+
+# Install Mage
+sudo pip3 install mage-ai 
+                #opensoure for creating data pipeline for DE, free (but you have to pay for hosting environment like cloud)
+                # an open-source, hybrid framework for transforming and integrating data.
+
+# Install Pandas
+sudo pip3 install pandas
+
+# Install Google Cloud Library
+sudo pip3 install google-cloud
+
+sudo pip3 install google-cloud-bigquery
