@@ -19,26 +19,26 @@ This project showcases real-world taxi data analytics centered around New York C
 ## Data Source
 We utilize the TLC Trip Record Data, which encompasses a wealth of information from yellow and green taxi trip records, including pick-up and drop-off times, locations, distances, fares, and more. These datasets have been provided under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP).
 
-- **Minimized Dataset Sample**: [Download Here](https://path_to_your_dataset/yellow_tripdata_sample.csv)
+- **Minimized Dataset Sample**: [Download Here](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/Data%20Source/yellow_tripdata_2023-11(cut)1.csv)
 
 ### Additional Resources
 - [TLC Trip Record Data Website](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
-- [Data Dictionary PDF](https://path_to_your_document/data_dictionary_trip_records_yellow.pdf)
+- [Data Dictionary PDF](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
 
 ## ERD Diagram
 ![ERD Diagram](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/ERD%20Diagram/ERD%20Diagram.png)
 
 ## Step-by-Step Guide
-1. Download the dataset to your local machine. [Dataset Download](https://path_to_your_dataset/yellow_tripdata_sample.csv)
-2. Perform preliminary data transformations in Jupyter Notebooks. [Codebase](https://path_to_your_code/data_transforming_notebook.ipynb)
+1. Download the dataset to your local machine. [Dataset Download](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/Data%20Source/yellow_tripdata_2023-11(cut)1.csv)
+2. Perform preliminary data transformations in Jupyter Notebooks. [Codebase](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/Python%20Script/data_transforming.ipynb)
 3. Initialize the GCP Console.
-4. Create and configure a GCP VM Instance. [Installation Scripts](https://path_to_your_scripts/command_scripts.txt)
+4. Create and configure a GCP VM Instance. [Installation Scripts](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/Command%20Scripts/command.txt)
 5. Upload the dataset to Google Cloud Storage with 'Public Access' settings.
 6. Establish a new Mage environment. Refer to [Mage documentation](https://www.mage.ai/) for details.
 7. Implement a new firewall rule for Mage project access.
-8. Develop the ETL pipeline. [ETL Framework](https://path_to_your_framework/etl_framework.md)
+8. Develop the ETL pipeline. [ETL Framework](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/Mage_AI/DataPipelineFrameWork/PipelineFrameWork.png)
 9. Configure `io_config.yml` for BigQuery data export. (For assistance, contact the support team)
-10. Create analytical data products using SQL scripts. [SQL Scripts](https://path_to_your_sql_scripts/sql_scripts.sql)
+10. Create analytical data products using SQL scripts. [SQL Scripts](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/GCP%20BigQuery%20SQL/taxi_analytics_dp.sql)
 11. Develop a dashboard in PowerBI or Looker Studio for visualization.
 
 ## References
