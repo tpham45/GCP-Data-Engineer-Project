@@ -1,7 +1,7 @@
 # NYC Yellow Taxi Data Analytics Project
 
 ## Introduction
-This project showcases real-world taxi data analytics centered around New York City. Utilizing a range of tools, including GCP Services, Python, Virtual Machine, and Mage Data Pipeline, we prepare data for insightful analysis. The findings are visualized using PowerBI and Looker Studio to inform data-driven decisions.
+This project showcases real-world taxi data analytics centered around New York City. Utilizing a range of tools, including GCP Services, Python, Virtual Machine, and Mage Data Pipeline, I prepare data for insightful analysis. The findings are visualized using PowerBI and Looker Studio to inform data-driven decisions.
 
 ## Architecture Framework
 ![Architecture Diagram](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/ERD%20Diagram/architecture.jpg)
@@ -17,7 +17,7 @@ This project showcases real-world taxi data analytics centered around New York C
 - **Data Visualization**: Power BI & Looker Studio
 
 ## Data Source
-We utilize the TLC Trip Record Data, which encompasses a wealth of information from yellow and green taxi trip records, including pick-up and drop-off times, locations, distances, fares, and more. These datasets have been provided under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP).
+I utilize the TLC Trip Record Data, which encompasses a wealth of information from yellow and green taxi trip records, including pick-up and drop-off times, locations, distances, fares, and more. These datasets have been provided under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP).
 
 - **Minimized Dataset Sample**: [Download Here](https://github.com/tpham45/Taxi_Analytics/blob/main/Data%20Analytic%20Uber/Data%20Source/yellow_tripdata_2023-11(cut)1.csv)
 
